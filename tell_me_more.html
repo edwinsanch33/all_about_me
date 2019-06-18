@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tell Me More</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="tell_me_more.html">Tell Me More!</a>
+    </nav>
+    <hr>
+    <main>
+      <h1>
+      All About You!
+      </h1>
+      <form
+        action="https://formspree.io/edwinsanch33@gmail.com"
+        method="POST"
+      >
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" value="Some">
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" value="Guy">
+      <label for="email">Email</label>
+      <input type="email" name="email" value="mah@dude.com">
+      <label for="date_of_birth">Date of Birth</label>
+      <input type="date" name="" value="mm/dd/yyyy">
+
+      <div>
+      <br>
+        <label for="rating_coding">
+          How Much Do You Like to Code?
+        </label>
+        <input type="range" name="rating_coding" value="">
+      </div>
+      <br>
+      <div>
+        <label for="skills_boxes">
+          Skills (check any that apply)
+        </label>
+        <input type="checkbox" name="html" value="true">
+          HTML
+        <input type="checkbox" name="css" value="true">
+          CSS
+        <input type="checkbox" name="git" value="true">
+          Git
+      </div>
+      <br>
+      <div>
+        <label for="favorite_language">Favorite Language</label>
+        <select name="favorite_language">
+          <option value="">Select a language</option>
+          <option value="ruby">Ruby</option>
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="favorite_browsers">Favorite Browser</label>
+        <input list="browers" name="favorite_browsers">
+        <datalist id="browers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Safari">
+        </datalist>
+      </div>
+      <br>
+      <div>
+        <label>White Space:</label>
+        <input type="radio" name="tab_or_spaces" value="tabs" checked>
+        <label for="tabs">Tabs</label>
+        <input type="radio" name="tab_or_spaces" value="spaces">
+        <label for="tabs">Spaces</label>
+      </div>
+      <br>
+      <div>
+        <label for="indentation">
+          How Many Spaces Should a Tab Represent?
+        </label>
+        <input
+          type="number"
+          name="indentation"
+          min="1"
+          step="1"
+          value="2">
+      </div>
+      <br>
+      <div>
+        <label for="favorite_color">Favorite Web Color</label>
+        <input type="color" name="favorite_color" value="green">
+      </div>
+      <br>
+      <button type="submit" name="submit">Send It</button>
+      <input type="reset">
+      </form>
+  </body>
+</html>

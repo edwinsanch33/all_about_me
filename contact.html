@@ -8,17 +8,25 @@
     <nav>
       <ul>
         <li>
-          <a href=""></a>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Me!</a>
+        </li>
+        <li>
+          <a href="tell_me_more.html">Tell Me More!</a>
         </li>
       </ul>
-      <main>
-        <h1>
-        Use this form to Contact Me!
-        </h1>
-        <form
-        action="https://formspree.io/edwinsanch33@gmail.com"
-        method="POST"
-        >
+    </nav>
+    <main>
+      <h1>
+      Use this form to Contact Me!
+      </h1>
+      <form
+      action="https://formspree.io/edwinsanch33@gmail.com"
+      method="POST"
+      >
+        <div>
           <label for="your_name">Your Name</label>
           <input
             id="your name"
@@ -26,8 +34,18 @@
             name="your_name"
             autocomplete="off"
           />
+        </div>
+        <div>
           <label for="your_message">Your Message</label>
-
-        </form>
+          <textarea
+            name="your_message"
+            id="your_message"
+            rows="10"
+            cols="100"></textarea>
+        </div>
+        <button type="submit">Send</button>
+        <input type="reset">
+      </form>
+    </main>
   </body>
 </html>
