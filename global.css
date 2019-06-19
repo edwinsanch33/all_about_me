@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    margin-top: 65px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 
+}
